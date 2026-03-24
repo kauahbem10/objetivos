@@ -1,4 +1,23 @@
-h1{
+h1 {
      font-size: 50px;
      color: red;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+
+     --cor-de-fundo:#5917cd;
+     --cor-texoto-principl:#ffffff;
+     --cor-texto-secundari:#000000;
+     --botao-ativo:#ff0000;
+     --botao-inativo:#000000;
+
+
+
+body{
+     background: var(--cor-de-fundo);
+     color: var(--cor-texto-principal);
+       font-family: "Roboto", sans-serif;
+
 }
