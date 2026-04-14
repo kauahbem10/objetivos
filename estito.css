@@ -59,16 +59,13 @@ body{
 .botao:last-child{ border-radius: 0 40px 0 0;} 
 } 
      
-.botao.ativo{
-     background-color:var(--)
-}
 
 
 .aba-conteudo.ativo{
      display:block;
 }
 .abas-texto{
-     background-color:var(--cor-de-fundo);
+     background-color:var(--botao-inativo);
      padding: 40px;
      border-radius:0 0 40px 40px;
 }
