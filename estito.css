@@ -87,4 +87,34 @@ body{
      .botao:last-child{
           border-radius:0 40px 0 0;
      }
+.conteudo-titulo-principla{
+     text-align:center;
+     color:var(--cor-texto-secundaria);
+     text-transfrom:uppercase;
+}
+.contador{
+     display:flex;
+     justify-content:center;
+     flex-wrap:wrap;
+}
+.contador-digito{
+     padding:0 16px;
+     text_align:center;
+     min-width:100px;
+}
+.conteudo-titulo-segundario{
+     text-align:center;
+     color:var(--cor-texto-secundaria);
+     text-transfrom:uppercase;
+}
+.contador-digito-texto{
+     color:var(--cor-texto-secundaria);
+     font-size:20px;
+     margin:0;
+
+}
+.contador-digital-numerico{
+     font_size:80px;
+     margin:0;
+}
 
